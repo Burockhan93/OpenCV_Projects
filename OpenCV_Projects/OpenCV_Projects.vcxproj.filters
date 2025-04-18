@@ -18,5 +18,8 @@
     <ClCompile Include="OpenCV_Projects.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="BackGroundSubtraction\BackgroundSubtraction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

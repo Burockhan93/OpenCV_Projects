@@ -1,2 +1,5 @@
-﻿  OpenCV_Projects.cpp
+﻿  BackgroundSubtraction.cpp
+F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\BackGroundSubtraction\BackgroundSubtraction.cpp(131,13): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  OpenCV_Projects.cpp
+  Generating Code...
   OpenCV_Projects.vcxproj -> F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\x64\Debug\OpenCV_Projects.exe
