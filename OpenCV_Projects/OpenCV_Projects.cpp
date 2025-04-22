@@ -4,8 +4,10 @@
 #include <opencv2\imgproc.hpp>
 
 #define ENTRY
+#define BACKGROUND_SUBTRACTION
 
 extern void run_background_subtraction();
+extern void testNeuralNetwork();
 
 void fill_frame(cv::Mat& mask, cv::Mat& hsv_mask, cv::Mat& result, cv::Mat& alternate_background);
 
@@ -26,7 +28,11 @@ int main()
 	 
 	cv::waitKey(0);
 #endif
+#ifndef BACKGROUND_SUBTRACTION
 
 	run_background_subtraction();
+#endif 
+
+	testNeuralNetwork();
     
 }

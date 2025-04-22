@@ -132,7 +132,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="BackGroundSubtraction\BackgroundSubtraction.cpp" />
+    <ClCompile Include="MachineLearning\MachineLearning.cpp" />
+    <ClCompile Include="MachineLearning\SingleLayerNN.cpp" />
     <ClCompile Include="OpenCV_Projects.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MachineLearning\SingleLayerNN.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
