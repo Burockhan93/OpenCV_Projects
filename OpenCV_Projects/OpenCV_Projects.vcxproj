@@ -135,9 +135,12 @@
     <ClCompile Include="MachineLearning\MachineLearning.cpp" />
     <ClCompile Include="MachineLearning\SingleLayerNN.cpp" />
     <ClCompile Include="OpenCV_Projects.cpp" />
+    <ClCompile Include="Utils\plotlib.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MachineLearning\SingleLayerNN.h" />
+    <ClInclude Include="Utils\plotlib.h" />
+    <ClInclude Include="Utils\Utils.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
