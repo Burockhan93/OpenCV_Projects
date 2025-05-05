@@ -2,6 +2,7 @@
 #include <opencv2\core.hpp>
 #include <opencv2\highgui.hpp>
 #include <opencv2\imgproc.hpp>
+#include "..\Utils\plotlib.h"
 
 //plot class will be used to plot the data, need to create a class for it
 
@@ -46,7 +47,7 @@ void testNeuralNetwork() {
 	std::vector<std::vector<float>> targets(10000);
 	std::random_device rd;
 	std::mt19937 gen(rd());
-	std::uniform_real_distribution<float> dis(.0f, 1.0f);
+	std::uniform_real_distribution<float> dis(-1.0f, 1.0f);
 	for (size_t i = 0; i < 10000; i++)
 	{
 		float x = dis(gen);
@@ -55,9 +56,10 @@ void testNeuralNetwork() {
 		targets[i] = { x > y ? 1.0f : 0.0f };
 	}
 	nn.train(inputs, targets);
-	cv::namedWindow(windowName_test, cv::WINDOW_FREERATIO);
+
 	// Test the neural network with some inputs
 	std::vector<std::vector<float>> testInputs(100);
+	std::vector<float> predictedOutputs(101);
 	cv::Mat test_image(400, 400, CV_8UC3, cv::Scalar(0, 0, 0));
 	cv::Mat result_image(400, 400, CV_8UC3, cv::Scalar(0, 0, 0));
 	for (size_t i = 0; i < 100; i++)
@@ -69,9 +71,19 @@ void testNeuralNetwork() {
 	}
 
 
-
+	auto iter = predictedOutputs.begin();
+	std::vector<std::vector<float>> output_1;
+	std::vector<std::vector<float>> output_0;
+	int i = 0;
 	for (const auto& input : testInputs) {
+		i++;
+		
 		auto output = nn.predict(input);
+		if (iter != predictedOutputs.end()) {
+			*iter = output[0];
+			iter++;
+		}
+		
 		std::cout << "Input: ";
 		for (const auto& val : input) {
 			std::cout << val << " ";
@@ -80,17 +92,19 @@ void testNeuralNetwork() {
 		for (const auto& val : output) {
 			std::cout << val << " ";
 		}
-		std::cout << std::endl;
-		if (output[0] > 0.5f) {
-			cv::circle(result_image, cv::Point(input[0] * 400, input[1] * 400), 2, cv::Scalar(0, 255, 0), -1);
-		}
-		else {
-			cv::circle(result_image, cv::Point(input[0] * 400, input[1] * 400), 2, cv::Scalar(0, 0, 255), -1);
-		}
+
+		output[0] > 0.5f ? output_1.push_back(input):output_0.push_back(input);
+		
 	}
-	cv::imshow(windowName_test, result_image);
-	cv::imshow(windowName_result, test_image);
-	cv::waitKey(0);
+
+	using namespace utils;
+	PlotLib plot(800, 800,true);
+	output_0.shrink_to_fit();
+	output_1.shrink_to_fit();
+	plot.plot(output_0, utils::PlotType::dot, cv::Scalar(0, 255, 0));
+	plot.plot(output_1, utils::PlotType::dot, cv::Scalar(255, 0, 0));
+
+	plot.plot_show();
 
 	cv::destroyAllWindows();
 }

@@ -3,59 +3,76 @@
   "WorkspaceRootPath": "F:\\Programming\\Projects\\OpenCV_Projects\\OpenCV_Projects\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F0573D63-6C62-4899-AD5C-9F9B46DCFD58}|OpenCV_Projects.vcxproj|F:\\Programming\\Projects\\OpenCV_Projects\\OpenCV_Projects\\NewFolder1\\ImageStitching.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F0573D63-6C62-4899-AD5C-9F9B46DCFD58}|OpenCV_Projects.vcxproj|solutionrelative:NewFolder1\\ImageStitching.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F0573D63-6C62-4899-AD5C-9F9B46DCFD58}|OpenCV_Projects.vcxproj|F:\\Programming\\Projects\\OpenCV_Projects\\OpenCV_Projects\\MachineLearning\\MachineLearning.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F0573D63-6C62-4899-AD5C-9F9B46DCFD58}|OpenCV_Projects.vcxproj|solutionrelative:MachineLearning\\MachineLearning.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F0573D63-6C62-4899-AD5C-9F9B46DCFD58}|OpenCV_Projects.vcxproj|F:\\Programming\\Projects\\OpenCV_Projects\\OpenCV_Projects\\OpenCV_Projects.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{F0573D63-6C62-4899-AD5C-9F9B46DCFD58}|OpenCV_Projects.vcxproj|solutionrelative:OpenCV_Projects.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F0573D63-6C62-4899-AD5C-9F9B46DCFD58}|OpenCV_Projects.vcxproj|F:\\Programming\\Projects\\OpenCV_Projects\\OpenCV_Projects\\Utils\\plotlib.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{F0573D63-6C62-4899-AD5C-9F9B46DCFD58}|OpenCV_Projects.vcxproj|solutionrelative:Utils\\plotlib.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F0573D63-6C62-4899-AD5C-9F9B46DCFD58}|OpenCV_Projects.vcxproj|F:\\Programming\\Projects\\OpenCV_Projects\\OpenCV_Projects\\Utils\\plotlib.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{F0573D63-6C62-4899-AD5C-9F9B46DCFD58}|OpenCV_Projects.vcxproj|solutionrelative:Utils\\plotlib.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F0573D63-6C62-4899-AD5C-9F9B46DCFD58}|OpenCV_Projects.vcxproj|F:\\Programming\\Projects\\OpenCV_Projects\\OpenCV_Projects\\MachineLearning\\SingleLayerNN.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F0573D63-6C62-4899-AD5C-9F9B46DCFD58}|OpenCV_Projects.vcxproj|solutionrelative:MachineLearning\\SingleLayerNN.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0573D63-6C62-4899-AD5C-9F9B46DCFD58}|OpenCV_Projects.vcxproj|F:\\Programming\\Projects\\OpenCV_Projects\\OpenCV_Projects\\Utils\\Utils.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{F0573D63-6C62-4899-AD5C-9F9B46DCFD58}|OpenCV_Projects.vcxproj|solutionrelative:Utils\\Utils.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F0573D63-6C62-4899-AD5C-9F9B46DCFD58}|OpenCV_Projects.vcxproj|F:\\Programming\\Projects\\OpenCV_Projects\\OpenCV_Projects\\MachineLearning\\SingleLayerNN.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F0573D63-6C62-4899-AD5C-9F9B46DCFD58}|OpenCV_Projects.vcxproj|solutionrelative:MachineLearning\\SingleLayerNN.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{F0573D63-6C62-4899-AD5C-9F9B46DCFD58}|OpenCV_Projects.vcxproj|F:\\Programming\\Projects\\OpenCV_Projects\\OpenCV_Projects\\OpenCV_Projects.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F0573D63-6C62-4899-AD5C-9F9B46DCFD58}|OpenCV_Projects.vcxproj|solutionrelative:OpenCV_Projects.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0573D63-6C62-4899-AD5C-9F9B46DCFD58}|OpenCV_Projects.vcxproj|F:\\Programming\\Projects\\OpenCV_Projects\\OpenCV_Projects\\Utils\\plotlib.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F0573D63-6C62-4899-AD5C-9F9B46DCFD58}|OpenCV_Projects.vcxproj|solutionrelative:Utils\\plotlib.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0573D63-6C62-4899-AD5C-9F9B46DCFD58}|OpenCV_Projects.vcxproj|F:\\Programming\\Projects\\OpenCV_Projects\\OpenCV_Projects\\Utils\\plotlib.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F0573D63-6C62-4899-AD5C-9F9B46DCFD58}|OpenCV_Projects.vcxproj|solutionrelative:Utils\\plotlib.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F0573D63-6C62-4899-AD5C-9F9B46DCFD58}|OpenCV_Projects.vcxproj|F:\\Programming\\Projects\\OpenCV_Projects\\OpenCV_Projects\\BackGroundSubtraction\\BackgroundSubtraction.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F0573D63-6C62-4899-AD5C-9F9B46DCFD58}|OpenCV_Projects.vcxproj|solutionrelative:BackGroundSubtraction\\BackgroundSubtraction.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0573D63-6C62-4899-AD5C-9F9B46DCFD58}|OpenCV_Projects.vcxproj|F:\\Programming\\Projects\\OpenCV_Projects\\OpenCV_Projects\\Utils\\Utils.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F0573D63-6C62-4899-AD5C-9F9B46DCFD58}|OpenCV_Projects.vcxproj|solutionrelative:Utils\\Utils.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 100,
+      "VerticalTabListWidth": 346,
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "OpenCV_Projects.cpp",
               "DocumentMoniker": "F:\\Programming\\Projects\\OpenCV_Projects\\OpenCV_Projects\\OpenCV_Projects.cpp",
               "RelativeDocumentMoniker": "OpenCV_Projects.cpp",
               "ToolTip": "F:\\Programming\\Projects\\OpenCV_Projects\\OpenCV_Projects\\OpenCV_Projects.cpp",
               "RelativeToolTip": "OpenCV_Projects.cpp",
-              "ViewState": "AgIAABQAAAAAAAAAAAAgwCcAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-04-17T14:59:40.752Z",
               "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ImageStitching.cpp",
+              "DocumentMoniker": "F:\\Programming\\Projects\\OpenCV_Projects\\OpenCV_Projects\\NewFolder1\\ImageStitching.cpp",
+              "RelativeDocumentMoniker": "NewFolder1\\ImageStitching.cpp",
+              "ToolTip": "F:\\Programming\\Projects\\OpenCV_Projects\\OpenCV_Projects\\NewFolder1\\ImageStitching.cpp",
+              "RelativeToolTip": "NewFolder1\\ImageStitching.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-05T09:20:08.743Z",
               "EditorCaption": ""
             },
             {
@@ -64,20 +81,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "plotlib.h",
               "DocumentMoniker": "F:\\Programming\\Projects\\OpenCV_Projects\\OpenCV_Projects\\Utils\\plotlib.h",
               "RelativeDocumentMoniker": "Utils\\plotlib.h",
               "ToolTip": "F:\\Programming\\Projects\\OpenCV_Projects\\OpenCV_Projects\\Utils\\plotlib.h",
               "RelativeToolTip": "Utils\\plotlib.h",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACkAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAC8AAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-22T16:16:52.419Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-22T16:16:52.419Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Utils.h",
               "DocumentMoniker": "F:\\Programming\\Projects\\OpenCV_Projects\\OpenCV_Projects\\Utils\\Utils.h",
               "RelativeDocumentMoniker": "Utils\\Utils.h",
@@ -89,33 +105,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "plotlib.cpp",
               "DocumentMoniker": "F:\\Programming\\Projects\\OpenCV_Projects\\OpenCV_Projects\\Utils\\plotlib.cpp",
               "RelativeDocumentMoniker": "Utils\\plotlib.cpp",
               "ToolTip": "F:\\Programming\\Projects\\OpenCV_Projects\\OpenCV_Projects\\Utils\\plotlib.cpp",
               "RelativeToolTip": "Utils\\plotlib.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGwAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-04-22T16:16:43.335Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MachineLearning.cpp",
               "DocumentMoniker": "F:\\Programming\\Projects\\OpenCV_Projects\\OpenCV_Projects\\MachineLearning\\MachineLearning.cpp",
               "RelativeDocumentMoniker": "MachineLearning\\MachineLearning.cpp",
               "ToolTip": "F:\\Programming\\Projects\\OpenCV_Projects\\OpenCV_Projects\\MachineLearning\\MachineLearning.cpp",
               "RelativeToolTip": "MachineLearning\\MachineLearning.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGQAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-04-22T07:41:43.567Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "SingleLayerNN.h",
               "DocumentMoniker": "F:\\Programming\\Projects\\OpenCV_Projects\\OpenCV_Projects\\MachineLearning\\SingleLayerNN.h",
               "RelativeDocumentMoniker": "MachineLearning\\SingleLayerNN.h",
@@ -123,19 +139,21 @@
               "RelativeToolTip": "MachineLearning\\SingleLayerNN.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-20T09:44:13.921Z"
+              "WhenOpened": "2025-04-20T09:44:13.921Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "SingleLayerNN.cpp",
               "DocumentMoniker": "F:\\Programming\\Projects\\OpenCV_Projects\\OpenCV_Projects\\MachineLearning\\SingleLayerNN.cpp",
               "RelativeDocumentMoniker": "MachineLearning\\SingleLayerNN.cpp",
               "ToolTip": "F:\\Programming\\Projects\\OpenCV_Projects\\OpenCV_Projects\\MachineLearning\\SingleLayerNN.cpp",
               "RelativeToolTip": "MachineLearning\\SingleLayerNN.cpp",
-              "ViewState": "AgIAADMAAAAAAAAAAAAgwEwAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAEwAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-20T09:37:01.091Z"
+              "WhenOpened": "2025-04-20T09:37:01.091Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

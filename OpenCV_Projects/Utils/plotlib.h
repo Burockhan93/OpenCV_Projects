@@ -37,20 +37,15 @@ namespace utils {
 		int window_width = 800;
 		int window_height = 600;
 		bool showGrid = true;
-		bool show_negative = true;
+		bool show_negative = false;
 		void prepare_plot(int w_width, int w_height);
 		void transform(std::vector<std::vector<float>>& points);
 		void plot(std::vector<std::vector<float>>& points, PlotType type = PlotType::dot, const cv::Scalar& color = cv::Scalar(255, 255, 255), int thickness = 1);
 		void plot_show();
 
 		PlotLib() = default;
-		PlotLib(int w_width, int w_height, std::vector<std::vector<float>>& points, bool showNegative=true) : window_width(w_width), window_height(w_height), show_negative(showNegative) {
-
-			plotBackground = cv::Mat(window_height, window_width, CV_8UC3, cv::Scalar(0, 0, 0));
-			prepare_plot(w_width, w_height);
-
-			plot(points, PlotType::dot, cv::Scalar(255, 255, 255), 1);
-		}
+		PlotLib(int w_width, int w_height, std::vector<std::vector<float>>& points, bool showNegative = true);
+		PlotLib(int w_width, int w_height, bool showNegative = true);
 
 	};
 }

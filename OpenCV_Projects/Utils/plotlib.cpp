@@ -1,14 +1,16 @@
 #include "plotlib.h"
 
-//utils::PlotLib::PlotLib() = default;
-//utils::PlotLib::PlotLib(int width, int height) {
-//	plotXMin = plotPadding / 2;
-//	plotXMax = window_width - plotPadding / 2;
-//	plotXCenter = (plotXMax + plotXMin) / 2;
-//	plotYMin = plotPadding / 2;
-//	plotYMax = window_height - plotPadding / 2;
-//	plotYCenter = (plotYMin + plotYMax) / 2;
-//}
+utils::PlotLib::PlotLib(int w_width, int w_height, std::vector<std::vector<float>>& points, bool showNegative) : window_width(w_width), window_height(w_height), show_negative(showNegative) {
+
+	plotBackground = cv::Mat(window_height, window_width, CV_8UC3, cv::Scalar(0, 0, 0));
+	prepare_plot(w_width, w_height);
+
+	plot(points, PlotType::dot, cv::Scalar(255, 255, 255), 1);
+}
+utils::PlotLib::PlotLib(int w_width, int w_height, bool showNegative) :window_width(w_width), window_height(w_height), show_negative(showNegative) {
+	plotBackground = cv::Mat(window_height, window_width, CV_8UC3, cv::Scalar(0, 0, 0));
+	prepare_plot(w_width, w_height);
+}
 
 void utils::PlotLib::prepare_plot(int w_width, int w_height) {
 	plotXMin = plotPadding / 2;

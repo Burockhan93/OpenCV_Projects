@@ -134,6 +134,7 @@
     <ClCompile Include="BackGroundSubtraction\BackgroundSubtraction.cpp" />
     <ClCompile Include="MachineLearning\MachineLearning.cpp" />
     <ClCompile Include="MachineLearning\SingleLayerNN.cpp" />
+    <ClCompile Include="NewFolder1\ImageStitching.cpp" />
     <ClCompile Include="OpenCV_Projects.cpp" />
     <ClCompile Include="Utils\plotlib.cpp" />
   </ItemGroup>
