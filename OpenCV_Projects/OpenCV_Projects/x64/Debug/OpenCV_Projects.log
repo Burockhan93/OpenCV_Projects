@@ -1,16 +1,22 @@
-﻿  MachineLearning.cpp
-F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\MachineLearning\MachineLearning.cpp(18,21): warning C4305: 'argument': truncation from 'double' to 'float'
-F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\MachineLearning\MachineLearning.cpp(21,17): warning C4305: 'argument': truncation from 'double' to 'float'
-F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\MachineLearning\MachineLearning.cpp(22,23): warning C4305: 'argument': truncation from 'double' to 'float'
-F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\MachineLearning\MachineLearning.cpp(32,15): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
-F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\MachineLearning\MachineLearning.cpp(70,47): warning C4244: 'argument': conversion from 'float' to '_Tp', possible loss of data
-F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\MachineLearning\MachineLearning.cpp(70,47): warning C4244:         with
-F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\MachineLearning\MachineLearning.cpp(70,47): warning C4244:         [
-F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\MachineLearning\MachineLearning.cpp(70,47): warning C4244:             _Tp=int
-F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\MachineLearning\MachineLearning.cpp(70,47): warning C4244:         ]
-F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\MachineLearning\MachineLearning.cpp(70,38): warning C4244: 'argument': conversion from 'float' to '_Tp', possible loss of data
-F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\MachineLearning\MachineLearning.cpp(70,38): warning C4244:         with
-F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\MachineLearning\MachineLearning.cpp(70,38): warning C4244:         [
-F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\MachineLearning\MachineLearning.cpp(70,38): warning C4244:             _Tp=int
-F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\MachineLearning\MachineLearning.cpp(70,38): warning C4244:         ]
+﻿  ImageStitching.cpp
+F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\NewFolder1\ImageStitching.cpp(83,21): warning C4244: 'argument': conversion from 'int' to '_Tp', possible loss of data
+F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\NewFolder1\ImageStitching.cpp(83,21): warning C4244:         with
+F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\NewFolder1\ImageStitching.cpp(83,21): warning C4244:         [
+F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\NewFolder1\ImageStitching.cpp(83,21): warning C4244:             _Tp=float
+F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\NewFolder1\ImageStitching.cpp(83,21): warning C4244:         ]
+F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\NewFolder1\ImageStitching.cpp(84,37): warning C4244: 'argument': conversion from 'int' to '_Tp', possible loss of data
+F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\NewFolder1\ImageStitching.cpp(84,37): warning C4244:         with
+F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\NewFolder1\ImageStitching.cpp(84,37): warning C4244:         [
+F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\NewFolder1\ImageStitching.cpp(84,37): warning C4244:             _Tp=float
+F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\NewFolder1\ImageStitching.cpp(84,37): warning C4244:         ]
+F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\NewFolder1\ImageStitching.cpp(84,21): warning C4244: 'argument': conversion from 'int' to '_Tp', possible loss of data
+F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\NewFolder1\ImageStitching.cpp(84,21): warning C4244:         with
+F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\NewFolder1\ImageStitching.cpp(84,21): warning C4244:         [
+F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\NewFolder1\ImageStitching.cpp(84,21): warning C4244:             _Tp=float
+F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\NewFolder1\ImageStitching.cpp(84,21): warning C4244:         ]
+F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\NewFolder1\ImageStitching.cpp(85,24): warning C4244: 'argument': conversion from 'int' to '_Tp', possible loss of data
+F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\NewFolder1\ImageStitching.cpp(85,24): warning C4244:         with
+F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\NewFolder1\ImageStitching.cpp(85,24): warning C4244:         [
+F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\NewFolder1\ImageStitching.cpp(85,24): warning C4244:             _Tp=float
+F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\NewFolder1\ImageStitching.cpp(85,24): warning C4244:         ]
   OpenCV_Projects.vcxproj -> F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\x64\Debug\OpenCV_Projects.exe

@@ -41,7 +41,7 @@ int main()
 #ifndef NEURAL_NETWORK
 	testNeuralNetwork();
 #endif
-#ifndef IMAGE_STITCHING
+#ifdef IMAGE_STITCHING
 	stitch_images();
 #endif
 	
