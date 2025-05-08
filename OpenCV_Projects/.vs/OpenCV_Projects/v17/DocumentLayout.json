@@ -7,6 +7,9 @@
       "RelativeMoniker": "D:0:0:{F0573D63-6C62-4899-AD5C-9F9B46DCFD58}|OpenCV_Projects.vcxproj|solutionrelative:NewFolder1\\ImageStitching.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\opencv\\build\\include\\opencv2\\core\\mat.inl.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F0573D63-6C62-4899-AD5C-9F9B46DCFD58}|OpenCV_Projects.vcxproj|F:\\Programming\\Projects\\OpenCV_Projects\\OpenCV_Projects\\OpenCV_Projects.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F0573D63-6C62-4899-AD5C-9F9B46DCFD58}|OpenCV_Projects.vcxproj|solutionrelative:OpenCV_Projects.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -46,11 +49,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "OpenCV_Projects.cpp",
               "DocumentMoniker": "F:\\Programming\\Projects\\OpenCV_Projects\\OpenCV_Projects\\OpenCV_Projects.cpp",
               "RelativeDocumentMoniker": "OpenCV_Projects.cpp",
@@ -67,20 +70,30 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "mat.inl.hpp",
+              "DocumentMoniker": "C:\\opencv\\build\\include\\opencv2\\core\\mat.inl.hpp",
+              "ToolTip": "C:\\opencv\\build\\include\\opencv2\\core\\mat.inl.hpp",
+              "ViewState": "AgIAAPELAAAAAAAAAAAuwAUMAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-08T08:59:51.95Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ImageStitching.cpp",
               "DocumentMoniker": "F:\\Programming\\Projects\\OpenCV_Projects\\OpenCV_Projects\\NewFolder1\\ImageStitching.cpp",
               "RelativeDocumentMoniker": "NewFolder1\\ImageStitching.cpp",
               "ToolTip": "F:\\Programming\\Projects\\OpenCV_Projects\\OpenCV_Projects\\NewFolder1\\ImageStitching.cpp",
               "RelativeToolTip": "NewFolder1\\ImageStitching.cpp",
-              "ViewState": "AgIAABgAAAAAAAAAAAAuwG8AAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAuwEAAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-05-05T09:20:08.743Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "plotlib.h",
               "DocumentMoniker": "F:\\Programming\\Projects\\OpenCV_Projects\\OpenCV_Projects\\Utils\\plotlib.h",
               "RelativeDocumentMoniker": "Utils\\plotlib.h",
@@ -92,7 +105,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Utils.h",
               "DocumentMoniker": "F:\\Programming\\Projects\\OpenCV_Projects\\OpenCV_Projects\\Utils\\Utils.h",
               "RelativeDocumentMoniker": "Utils\\Utils.h",
@@ -104,7 +117,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "plotlib.cpp",
               "DocumentMoniker": "F:\\Programming\\Projects\\OpenCV_Projects\\OpenCV_Projects\\Utils\\plotlib.cpp",
               "RelativeDocumentMoniker": "Utils\\plotlib.cpp",
@@ -116,7 +129,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MachineLearning.cpp",
               "DocumentMoniker": "F:\\Programming\\Projects\\OpenCV_Projects\\OpenCV_Projects\\MachineLearning\\MachineLearning.cpp",
               "RelativeDocumentMoniker": "MachineLearning\\MachineLearning.cpp",
@@ -129,7 +142,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "SingleLayerNN.h",
               "DocumentMoniker": "F:\\Programming\\Projects\\OpenCV_Projects\\OpenCV_Projects\\MachineLearning\\SingleLayerNN.h",
               "RelativeDocumentMoniker": "MachineLearning\\SingleLayerNN.h",
@@ -141,7 +154,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "SingleLayerNN.cpp",
               "DocumentMoniker": "F:\\Programming\\Projects\\OpenCV_Projects\\OpenCV_Projects\\MachineLearning\\SingleLayerNN.cpp",
               "RelativeDocumentMoniker": "MachineLearning\\SingleLayerNN.cpp",
@@ -153,7 +166,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "BackgroundSubtraction.cpp",
               "DocumentMoniker": "F:\\Programming\\Projects\\OpenCV_Projects\\OpenCV_Projects\\BackGroundSubtraction\\BackgroundSubtraction.cpp",
               "RelativeDocumentMoniker": "BackGroundSubtraction\\BackgroundSubtraction.cpp",

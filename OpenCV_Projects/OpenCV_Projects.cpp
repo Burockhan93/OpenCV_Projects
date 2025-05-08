@@ -15,6 +15,8 @@ extern void run_background_subtraction();
 extern void testNeuralNetwork();
 extern void stitch_images();
 
+void stitch_images(std::vector<cv::Mat>& images, std::vector<cv::Mat>& homographies);
+
 void fill_frame(cv::Mat& mask, cv::Mat& hsv_mask, cv::Mat& result, cv::Mat& alternate_background);
 
 void erosion_dilation(cv::Mat& mask, cv::Mat& hsv_mask);
