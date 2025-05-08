@@ -1,23 +1,2 @@
-﻿  ImageStitching.cpp
-F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\NewFolder1\ImageStitching.cpp(73,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\NewFolder1\ImageStitching.cpp(100,21): warning C4244: 'argument': conversion from 'int' to '_Tp', possible loss of data
-F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\NewFolder1\ImageStitching.cpp(100,21): warning C4244:         with
-F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\NewFolder1\ImageStitching.cpp(100,21): warning C4244:         [
-F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\NewFolder1\ImageStitching.cpp(100,21): warning C4244:             _Tp=float
-F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\NewFolder1\ImageStitching.cpp(100,21): warning C4244:         ]
-F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\NewFolder1\ImageStitching.cpp(101,37): warning C4244: 'argument': conversion from 'int' to '_Tp', possible loss of data
-F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\NewFolder1\ImageStitching.cpp(101,37): warning C4244:         with
-F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\NewFolder1\ImageStitching.cpp(101,37): warning C4244:         [
-F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\NewFolder1\ImageStitching.cpp(101,37): warning C4244:             _Tp=float
-F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\NewFolder1\ImageStitching.cpp(101,37): warning C4244:         ]
-F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\NewFolder1\ImageStitching.cpp(101,21): warning C4244: 'argument': conversion from 'int' to '_Tp', possible loss of data
-F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\NewFolder1\ImageStitching.cpp(101,21): warning C4244:         with
-F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\NewFolder1\ImageStitching.cpp(101,21): warning C4244:         [
-F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\NewFolder1\ImageStitching.cpp(101,21): warning C4244:             _Tp=float
-F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\NewFolder1\ImageStitching.cpp(101,21): warning C4244:         ]
-F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\NewFolder1\ImageStitching.cpp(102,24): warning C4244: 'argument': conversion from 'int' to '_Tp', possible loss of data
-F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\NewFolder1\ImageStitching.cpp(102,24): warning C4244:         with
-F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\NewFolder1\ImageStitching.cpp(102,24): warning C4244:         [
-F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\NewFolder1\ImageStitching.cpp(102,24): warning C4244:             _Tp=float
-F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\NewFolder1\ImageStitching.cpp(102,24): warning C4244:         ]
+﻿  3D_reconstructor.cpp
   OpenCV_Projects.vcxproj -> F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\x64\Debug\OpenCV_Projects.exe

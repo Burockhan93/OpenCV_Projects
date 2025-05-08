@@ -10,12 +10,13 @@
 #define BACKGROUND_SUBTRACTION
 #define NEURAL_NETWORK
 #define IMAGE_STITCHING
+#define THREED_RECONSTRUCTION
 
 extern void run_background_subtraction();
 extern void testNeuralNetwork();
 extern void stitch_images();
+extern void run_3d_reconstruction();
 
-void stitch_images(std::vector<cv::Mat>& images, std::vector<cv::Mat>& homographies);
 
 void fill_frame(cv::Mat& mask, cv::Mat& hsv_mask, cv::Mat& result, cv::Mat& alternate_background);
 
@@ -43,8 +44,12 @@ int main()
 #ifndef NEURAL_NETWORK
 	testNeuralNetwork();
 #endif
-#ifdef IMAGE_STITCHING
+#ifndef IMAGE_STITCHING
 	stitch_images();
+#endif
+#ifdef THREED_RECONSTRUCTION
+	run_3d_reconstruction();
+
 #endif
 	
 

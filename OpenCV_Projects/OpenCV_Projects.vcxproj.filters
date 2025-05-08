@@ -30,7 +30,10 @@
     <ClCompile Include="Utils\plotlib.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="NewFolder1\ImageStitching.cpp">
+    <ClCompile Include="ImageStitching\ImageStitching.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="3D_Reconstruct\3D_reconstructor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
