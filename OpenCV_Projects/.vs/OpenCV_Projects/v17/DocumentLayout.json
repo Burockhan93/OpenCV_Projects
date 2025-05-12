@@ -7,10 +7,7 @@
       "RelativeMoniker": "D:0:0:{F0573D63-6C62-4899-AD5C-9F9B46DCFD58}|OpenCV_Projects.vcxproj|solutionrelative:3D_Reconstruct\\3D_reconstructor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0573D63-6C62-4899-AD5C-9F9B46DCFD58}|OpenCV_Projects.vcxproj|C:\\OPENCV\\BUILD\\INCLUDE\\OPENCV2\\CORE\\TRAITS.HPP||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F0573D63-6C62-4899-AD5C-9F9B46DCFD58}|OpenCV_Projects.vcxproj|C:\\PROGRAM FILES\\MICROSOFT VISUAL STUDIO\\2022\\COMMUNITY\\VC\\TOOLS\\MSVC\\14.43.34808\\INCLUDE\\ALGORITHM||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\opencv\\build\\include\\opencv2\\core\\mat.inl.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F0573D63-6C62-4899-AD5C-9F9B46DCFD58}|OpenCV_Projects.vcxproj|F:\\Programming\\Projects\\OpenCV_Projects\\OpenCV_Projects\\OpenCV_Projects.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -19,9 +16,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F0573D63-6C62-4899-AD5C-9F9B46DCFD58}|OpenCV_Projects.vcxproj|F:\\Programming\\Projects\\OpenCV_Projects\\OpenCV_Projects\\ImageStitching\\ImageStitching.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F0573D63-6C62-4899-AD5C-9F9B46DCFD58}|OpenCV_Projects.vcxproj|solutionrelative:ImageStitching\\ImageStitching.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\opencv\\build\\include\\opencv2\\core\\mat.inl.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F0573D63-6C62-4899-AD5C-9F9B46DCFD58}|OpenCV_Projects.vcxproj|F:\\Programming\\Projects\\OpenCV_Projects\\OpenCV_Projects\\MachineLearning\\MachineLearning.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -50,6 +44,12 @@
     {
       "AbsoluteMoniker": "D:0:0:{F0573D63-6C62-4899-AD5C-9F9B46DCFD58}|OpenCV_Projects.vcxproj|F:\\Programming\\Projects\\OpenCV_Projects\\OpenCV_Projects\\Utils\\Utils.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F0573D63-6C62-4899-AD5C-9F9B46DCFD58}|OpenCV_Projects.vcxproj|solutionrelative:Utils\\Utils.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\opencv\\build\\include\\opencv2\\core\\traits.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\algorithm||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -63,7 +63,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "OpenCV_Projects.cpp",
               "DocumentMoniker": "F:\\Programming\\Projects\\OpenCV_Projects\\OpenCV_Projects\\OpenCV_Projects.cpp",
               "RelativeDocumentMoniker": "OpenCV_Projects.cpp",
@@ -72,8 +72,7 @@
               "ViewState": "AgIAAA8AAAAAAAAAAAAAADIAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-04-17T14:59:40.752Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -81,25 +80,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": "traits.hpp",
               "DocumentMoniker": "C:\\opencv\\build\\include\\opencv2\\core\\traits.hpp",
               "ToolTip": "C:\\opencv\\build\\include\\opencv2\\core\\traits.hpp",
               "ViewState": "AgIAAG8BAAAAAAAAAADgv38BAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-08T19:08:11.453Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-08T19:08:11.453Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 12,
               "Title": "algorithm",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\algorithm",
               "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\algorithm",
               "ViewState": "AgIAAKMOAAAAAAAAAAAAALwOAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-05-08T17:37:35.69Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-08T17:37:35.69Z"
             },
             {
               "$type": "Document",
@@ -109,24 +106,25 @@
               "RelativeDocumentMoniker": "3D_Reconstruct\\3D_reconstructor.cpp",
               "ToolTip": "F:\\Programming\\Projects\\OpenCV_Projects\\OpenCV_Projects\\3D_Reconstruct\\3D_reconstructor.cpp",
               "RelativeToolTip": "3D_Reconstruct\\3D_reconstructor.cpp",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAAFsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAuwGoAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-05-08T14:59:08.447Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "mat.inl.hpp",
               "DocumentMoniker": "C:\\opencv\\build\\include\\opencv2\\core\\mat.inl.hpp",
               "ToolTip": "C:\\opencv\\build\\include\\opencv2\\core\\mat.inl.hpp",
-              "ViewState": "AgIAAPELAAAAAAAAAAAuwAUMAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAG4DAAAAAAAAAAAuwIIDAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-08T08:59:51.95Z"
+              "WhenOpened": "2025-05-08T08:59:51.95Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "ImageStitching.cpp",
               "DocumentMoniker": "F:\\Programming\\Projects\\OpenCV_Projects\\OpenCV_Projects\\ImageStitching\\ImageStitching.cpp",
               "RelativeDocumentMoniker": "ImageStitching\\ImageStitching.cpp",
@@ -134,12 +132,11 @@
               "RelativeToolTip": "ImageStitching\\ImageStitching.cpp",
               "ViewState": "AgIAAC0AAAAAAAAAAAAuwEAAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-05-05T09:20:08.743Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-05T09:20:08.743Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 8,
               "Title": "plotlib.h",
               "DocumentMoniker": "F:\\Programming\\Projects\\OpenCV_Projects\\OpenCV_Projects\\Utils\\plotlib.h",
               "RelativeDocumentMoniker": "Utils\\plotlib.h",
@@ -151,7 +148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 10,
               "Title": "Utils.h",
               "DocumentMoniker": "F:\\Programming\\Projects\\OpenCV_Projects\\OpenCV_Projects\\Utils\\Utils.h",
               "RelativeDocumentMoniker": "Utils\\Utils.h",
@@ -163,7 +160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 7,
               "Title": "plotlib.cpp",
               "DocumentMoniker": "F:\\Programming\\Projects\\OpenCV_Projects\\OpenCV_Projects\\Utils\\plotlib.cpp",
               "RelativeDocumentMoniker": "Utils\\plotlib.cpp",
@@ -175,7 +172,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "MachineLearning.cpp",
               "DocumentMoniker": "F:\\Programming\\Projects\\OpenCV_Projects\\OpenCV_Projects\\MachineLearning\\MachineLearning.cpp",
               "RelativeDocumentMoniker": "MachineLearning\\MachineLearning.cpp",
@@ -188,7 +185,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
               "Title": "SingleLayerNN.h",
               "DocumentMoniker": "F:\\Programming\\Projects\\OpenCV_Projects\\OpenCV_Projects\\MachineLearning\\SingleLayerNN.h",
               "RelativeDocumentMoniker": "MachineLearning\\SingleLayerNN.h",
@@ -200,7 +197,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "SingleLayerNN.cpp",
               "DocumentMoniker": "F:\\Programming\\Projects\\OpenCV_Projects\\OpenCV_Projects\\MachineLearning\\SingleLayerNN.cpp",
               "RelativeDocumentMoniker": "MachineLearning\\SingleLayerNN.cpp",
@@ -212,7 +209,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 9,
               "Title": "BackgroundSubtraction.cpp",
               "DocumentMoniker": "F:\\Programming\\Projects\\OpenCV_Projects\\OpenCV_Projects\\BackGroundSubtraction\\BackgroundSubtraction.cpp",
               "RelativeDocumentMoniker": "BackGroundSubtraction\\BackgroundSubtraction.cpp",

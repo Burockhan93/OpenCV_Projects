@@ -1,2 +1,3 @@
 ﻿  3D_reconstructor.cpp
+F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\3D_Reconstruct\3D_reconstructor.cpp(123,35): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
   OpenCV_Projects.vcxproj -> F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\x64\Debug\OpenCV_Projects.exe
