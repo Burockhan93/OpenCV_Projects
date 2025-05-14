@@ -104,14 +104,14 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\opencv\build\include</AdditionalIncludeDirectories>
-      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>C:\opencv\build\include;C:\open3d\open3d\include;C:\open3d\open3d\include\open3d\3rdparty</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\opencv\build\x64\vc16\lib</AdditionalLibraryDirectories>
-      <AdditionalDependencies>$(CoreLibraryDependencies);%(AdditionalDependencies);C:\opencv\build\x64\vc16\lib\opencv_world4110d.lib;C:\opencv\build\x64\vc16\lib\opencv_world4110.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\opencv\build\x64\vc16\lib;C:\open3d\open3d\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>$(CoreLibraryDependencies);%(AdditionalDependencies);C:\opencv\build\x64\vc16\lib\opencv_world4110d.lib;C:\opencv\build\x64\vc16\lib\opencv_world4110.lib;C:\open3d\open3d\lib\Open3D.lib</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -131,7 +131,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="3D_Reconstruct\3D_reconstructor.cpp" />
+    <ClCompile Include="3D_Reconstruct\depthmap.cpp" />
+    <ClCompile Include="3D_Reconstruct\pointcloud.cpp" />
+    <ClCompile Include="3D_Reconstruct\threedreconstructor.cpp" />
     <ClCompile Include="BackGroundSubtraction\BackgroundSubtraction.cpp" />
     <ClCompile Include="MachineLearning\MachineLearning.cpp" />
     <ClCompile Include="MachineLearning\SingleLayerNN.cpp" />
@@ -140,6 +142,9 @@
     <ClCompile Include="Utils\plotlib.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="3D_Reconstruct\depthmap.h" />
+    <ClInclude Include="3D_Reconstruct\pointcloud.h" />
+    <ClInclude Include="3D_Reconstruct\threedreconstructor.h" />
     <ClInclude Include="MachineLearning\SingleLayerNN.h" />
     <ClInclude Include="Utils\plotlib.h" />
     <ClInclude Include="Utils\Utils.h" />

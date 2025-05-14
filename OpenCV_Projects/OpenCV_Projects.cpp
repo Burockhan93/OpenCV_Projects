@@ -4,6 +4,7 @@
 #include <opencv2\imgproc.hpp>
 #include "Utils\plotlib.h"
 
+#include "3D_Reconstruct\threedreconstructor.h"
 
 
 #define ENTRY
@@ -15,7 +16,7 @@
 extern void run_background_subtraction();
 extern void testNeuralNetwork();
 extern void stitch_images();
-extern void run_3d_reconstruction();
+
 
 
 void fill_frame(cv::Mat& mask, cv::Mat& hsv_mask, cv::Mat& result, cv::Mat& alternate_background);
@@ -48,7 +49,7 @@ int main()
 	stitch_images();
 #endif
 #ifdef THREED_RECONSTRUCTION
-	run_3d_reconstruction();
+	run_3d_reconstruction(Technique3D::POINT_CLOUD);
 
 #endif
 	

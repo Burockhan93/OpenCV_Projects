@@ -1,4 +1,6 @@
-F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\3D_Reconstruct\3D_reconstructor.cpp;F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\OpenCV_Projects\x64\Debug\3D_reconstructor.obj
+F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\3D_Reconstruct\depthmap.cpp;F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\OpenCV_Projects\x64\Debug\depthmap.obj
+F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\3D_Reconstruct\pointcloud.cpp;F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\OpenCV_Projects\x64\Debug\pointcloud.obj
+F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\3D_Reconstruct\threedreconstructor.cpp;F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\OpenCV_Projects\x64\Debug\threedreconstructor.obj
 F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\BackGroundSubtraction\BackgroundSubtraction.cpp;F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\OpenCV_Projects\x64\Debug\BackgroundSubtraction.obj
 F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\MachineLearning\MachineLearning.cpp;F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\OpenCV_Projects\x64\Debug\MachineLearning.obj
 F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\MachineLearning\SingleLayerNN.cpp;F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\OpenCV_Projects\x64\Debug\SingleLayerNN.obj

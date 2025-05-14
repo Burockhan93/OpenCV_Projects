@@ -33,7 +33,13 @@
     <ClCompile Include="ImageStitching\ImageStitching.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="3D_Reconstruct\3D_reconstructor.cpp">
+    <ClCompile Include="3D_Reconstruct\pointcloud.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="3D_Reconstruct\depthmap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="3D_Reconstruct\threedreconstructor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -45,6 +51,15 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Utils\Utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="3D_Reconstruct\threedreconstructor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="3D_Reconstruct\depthmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="3D_Reconstruct\pointcloud.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
