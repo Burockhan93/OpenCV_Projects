@@ -35,6 +35,9 @@ As of now it includes techniques like depth estimation and point cloud generatio
 
 > Implements foreground/background segmentation techniques using classical and learning-based methods.  
 Useful for video analysis, surveillance, and motion tracking.
+> As of now there is only patch-based approach, which is to be honest not that affective with an old web cam and bad illumination.
+> ### Result for patch-based approach
+<img src="OpenCV_Projects/Resources/background_subt_patch_result.png" alt="Background Subtraction (Patch Based)" width="600"/>
 
 📂 Folder: `Backgroundsubtraction`
 
