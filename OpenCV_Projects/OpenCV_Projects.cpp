@@ -2,10 +2,11 @@
 #include <opencv2\core.hpp>
 #include <opencv2\highgui.hpp>
 #include <opencv2\imgproc.hpp>
-#include "Utils\plotlib.h"
 
 #include "3D_Reconstruct\threedreconstructor.h"
 #include "BackGroundSubtraction\BackgroundSubtraction.h"
+#include "ImageStitching\ImageStitching.h"
+#include "Utils\plotlib.h"
 
 
 #define ENTRY
@@ -15,9 +16,6 @@
 #define THREED_RECONSTRUCTION
 
 extern void testNeuralNetwork();
-extern void stitch_images();
-
-
 
 void fill_frame(cv::Mat& mask, cv::Mat& hsv_mask, cv::Mat& result, cv::Mat& alternate_background);
 
@@ -38,15 +36,15 @@ int main()
 	 
 	cv::waitKey(0);
 #endif
-#ifdef BACKGROUND_SUBTRACTION
+#ifndef BACKGROUND_SUBTRACTION
 
 	run_background_subtraction(SubtractionMethod::patch_based);
 #endif 
 #ifndef NEURAL_NETWORK
 	testNeuralNetwork();
 #endif
-#ifndef IMAGE_STITCHING
-	stitch_images();
+#ifdef IMAGE_STITCHING
+	stitch_images(StitchingMethod::Default);
 #endif
 #ifndef THREED_RECONSTRUCTION
 	run_3d_reconstruction(Technique3D::DEPTH_MAP);

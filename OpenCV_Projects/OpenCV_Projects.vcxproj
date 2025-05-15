@@ -146,6 +146,7 @@
     <ClInclude Include="3D_Reconstruct\pointcloud.h" />
     <ClInclude Include="3D_Reconstruct\threedreconstructor.h" />
     <ClInclude Include="BackGroundSubtraction\BackgroundSubtraction.h" />
+    <ClInclude Include="ImageStitching\ImageStitching.h" />
     <ClInclude Include="MachineLearning\SingleLayerNN.h" />
     <ClInclude Include="Utils\plotlib.h" />
     <ClInclude Include="Utils\Utils.h" />

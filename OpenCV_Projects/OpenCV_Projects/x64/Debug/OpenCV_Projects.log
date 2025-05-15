@@ -1,3 +1,25 @@
-﻿  BackgroundSubtraction.cpp
-F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\BackGroundSubtraction\BackgroundSubtraction.cpp(130,13): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+﻿  ImageStitching.cpp
+F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\ImageStitching\ImageStitching.cpp(101,8): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\ImageStitching\ImageStitching.cpp(128,21): warning C4244: 'argument': conversion from 'int' to '_Tp', possible loss of data
+F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\ImageStitching\ImageStitching.cpp(128,21): warning C4244:         with
+F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\ImageStitching\ImageStitching.cpp(128,21): warning C4244:         [
+F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\ImageStitching\ImageStitching.cpp(128,21): warning C4244:             _Tp=float
+F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\ImageStitching\ImageStitching.cpp(128,21): warning C4244:         ]
+F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\ImageStitching\ImageStitching.cpp(129,37): warning C4244: 'argument': conversion from 'int' to '_Tp', possible loss of data
+F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\ImageStitching\ImageStitching.cpp(129,37): warning C4244:         with
+F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\ImageStitching\ImageStitching.cpp(129,37): warning C4244:         [
+F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\ImageStitching\ImageStitching.cpp(129,37): warning C4244:             _Tp=float
+F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\ImageStitching\ImageStitching.cpp(129,37): warning C4244:         ]
+F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\ImageStitching\ImageStitching.cpp(129,21): warning C4244: 'argument': conversion from 'int' to '_Tp', possible loss of data
+F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\ImageStitching\ImageStitching.cpp(129,21): warning C4244:         with
+F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\ImageStitching\ImageStitching.cpp(129,21): warning C4244:         [
+F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\ImageStitching\ImageStitching.cpp(129,21): warning C4244:             _Tp=float
+F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\ImageStitching\ImageStitching.cpp(129,21): warning C4244:         ]
+F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\ImageStitching\ImageStitching.cpp(130,24): warning C4244: 'argument': conversion from 'int' to '_Tp', possible loss of data
+F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\ImageStitching\ImageStitching.cpp(130,24): warning C4244:         with
+F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\ImageStitching\ImageStitching.cpp(130,24): warning C4244:         [
+F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\ImageStitching\ImageStitching.cpp(130,24): warning C4244:             _Tp=float
+F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\ImageStitching\ImageStitching.cpp(130,24): warning C4244:         ]
+  OpenCV_Projects.cpp
+  Generating Code...
   OpenCV_Projects.vcxproj -> F:\Programming\Projects\OpenCV_Projects\OpenCV_Projects\x64\Debug\OpenCV_Projects.exe
