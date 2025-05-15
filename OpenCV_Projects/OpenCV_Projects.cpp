@@ -5,6 +5,7 @@
 #include "Utils\plotlib.h"
 
 #include "3D_Reconstruct\threedreconstructor.h"
+#include "BackGroundSubtraction\BackgroundSubtraction.h"
 
 
 #define ENTRY
@@ -13,7 +14,6 @@
 #define IMAGE_STITCHING
 #define THREED_RECONSTRUCTION
 
-extern void run_background_subtraction();
 extern void testNeuralNetwork();
 extern void stitch_images();
 
@@ -38,9 +38,9 @@ int main()
 	 
 	cv::waitKey(0);
 #endif
-#ifndef BACKGROUND_SUBTRACTION
+#ifdef BACKGROUND_SUBTRACTION
 
-	run_background_subtraction();
+	run_background_subtraction(SubtractionMethod::patch_based);
 #endif 
 #ifndef NEURAL_NETWORK
 	testNeuralNetwork();
@@ -48,7 +48,7 @@ int main()
 #ifndef IMAGE_STITCHING
 	stitch_images();
 #endif
-#ifdef THREED_RECONSTRUCTION
+#ifndef THREED_RECONSTRUCTION
 	run_3d_reconstruction(Technique3D::DEPTH_MAP);
 
 #endif

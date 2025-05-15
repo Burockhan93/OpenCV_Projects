@@ -1,5 +1,6 @@
+
 #include <iostream>
-#include <opencv2/core.hpp>
+#include "BackgroundSubtraction.h"
 #include <opencv2/highgui.hpp>
 #include <opencv2/imgproc.hpp>
 #include <opencv2/videoio.hpp>
@@ -8,16 +9,13 @@
 using namespace cv;
 using namespace std;
 
-void erosion_dilation(cv::Mat& mask, cv::Mat& hsv_mask);
-void image_subtraction(const Mat& firstImg, const Mat& secondImg, Mat& result);
-void fill_frame(cv::Mat& mask, cv::Mat& hsv_mask, cv::Mat& result, cv::Mat& alternate_background);
 
-int g_patch_size = 3;
-int g_diff = 15;
+int g_patch_size = 5;
+int g_diff = 50;
 Mat real_frame;
 const string window_name = "Background Subtraction";
 
-void run_background_subtraction() {
+void run_background_subtraction(SubtractionMethod method) {
 
 	cv::VideoCapture cap(0);
 
@@ -29,7 +27,7 @@ void run_background_subtraction() {
 
 	Mat background, background_gray, alternate_background;
 
-	background = imread("Resources//bg1.jpg");
+	background = imread("Resources//background.jpg");
 	alternate_background = imread("Resources//background.png");
 	if (background.empty() || alternate_background.empty()) {
 		std::cerr << "Error: Could not read background image.\n";
