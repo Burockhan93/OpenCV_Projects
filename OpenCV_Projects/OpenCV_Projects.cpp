@@ -49,7 +49,7 @@ int main()
 	stitch_images();
 #endif
 #ifdef THREED_RECONSTRUCTION
-	run_3d_reconstruction(Technique3D::POINT_CLOUD);
+	run_3d_reconstruction(Technique3D::DEPTH_MAP);
 
 #endif
 	

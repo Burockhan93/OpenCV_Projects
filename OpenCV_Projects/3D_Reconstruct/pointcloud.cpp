@@ -19,7 +19,7 @@ void run_threed_from_point_cloud() {
 	std::vector<cv::Point2f> pts1, pts2;
 	feature_detection(img1, img2, pts1, pts2, true);
 
-	CameraParams xaomi_14_ultra = get_camera_params();
+	CameraParams xaomi_14_ultra = get_xiaomi_camera_params();
 
 	//find important matrices
 	Mat K, R, T, inliers;
@@ -31,7 +31,7 @@ void run_threed_from_point_cloud() {
 	//create and visuaklise point cloud
 	const std::string filename = "output.obj";
 	write_to_obj(p3d, filename);
-	visualise_point_cloud(filename);
+	visualise_obj_point_cloud(filename);
 }
 
 void feature_detection(Mat& img1, Mat& img2, std::vector<cv::Point2f>& pts1, std::vector<cv::Point2f>& pts2, bool show_result) {
@@ -133,17 +133,18 @@ vector<Point3d> recover_3d_points(Mat& K, Mat& R, Mat& T, Mat& inliers, const st
 	}
 	return p3d;
 }
-void write_to_obj(vector<Point3d> p3d, const std::string& filename) {
+void write_to_obj(std::vector<cv::Point3d> p3d, const std::string& filename) {
 
-	ofstream file(filename);
+	std::ofstream file(filename);
 
 	for (auto p : p3d) {
-		file << "v " << p.x << " " << p.y << " " << p.z << endl;
+		file << "v " << p.x << " " << p.y << " " << p.z << std::endl;
 	}
 	file.close();
 
 }
-void visualise_point_cloud(const std::string& filename) {
+
+void visualise_obj_point_cloud(const std::string& filename) {
 	using namespace open3d;
 	// Load point cloud
 	auto pcd = std::make_shared<geometry::PointCloud>();
