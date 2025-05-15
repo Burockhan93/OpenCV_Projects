@@ -23,6 +23,7 @@ As of now it includes techniques like depth estimation and point cloud generatio
 
 > Result:
 ![3D Reconstruction Demo](OpenCV_Projects/Resources/3dstereo.gif)
+<img src="OpenCV_Projects/Resources/3dstereo.gif" alt="3D Reconstruction Demo" width="600"/>
 
 
 📂 Folder: `3d_reconstruction`
