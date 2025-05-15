@@ -74,7 +74,8 @@ As of now it includes a single layered neural network that learns to classify in
 
 > utilizes a custom made plotlib library to project points on a chart
 
-<img src="OpenCV_Projects/Resources/NeuralNetworkResult_with_CustomPlotlib.jpg" alt="Classification Result" width="600"/>
+> ### Results of Classification
+<img src="OpenCV_Projects/Resources/NeuralNetworkResult_with_CustomPlotlib.png" alt="Classification Result" width="600"/>
 
 📂 Folder: `ML`
 
