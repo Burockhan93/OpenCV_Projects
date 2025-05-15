@@ -49,6 +49,8 @@ Useful for video analysis, surveillance, and motion tracking.
 
 > Algorithms to stitch multiple images into a seamless panorama.  
 Includes feature matching, homography estimation, and blending.
+> OpenCV's own stitching algorithm is pretty good. But i wanted to play with different approaches.
+> As of now there are two approaches. First one is custom made which utilizes cumulative homography to both sides (not just left or right). 
 
 📂 Folder: `Imagestitching`
 
