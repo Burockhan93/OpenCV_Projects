@@ -39,6 +39,8 @@ Useful for video analysis, surveillance, and motion tracking.
 > ### Result for patch-based approach
 <img src="OpenCV_Projects/Resources/background_subt_patch_result.png" alt="Background Subtraction (Patch Based)" width="600"/>
 
+> 📌 **Note:** Requires the image of background without the actual subject in it (yeah its old tech).
+
 📂 Folder: `Backgroundsubtraction`
 
 ---
