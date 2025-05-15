@@ -56,6 +56,7 @@ Includes feature matching, homography estimation, and blending.
 <p float = "left">
   <img src="OpenCV_Projects/Resources/Panorama/panorama_custom.jpg" alt="Custom" width="45%"/>
   <img src="OpenCV_Projects/Resources/Panorama/panorama_default.jpg" alt="Default" width="45%"/>
+</p>
 
 📂 Folder: `Imagestitching`
 
@@ -64,7 +65,16 @@ Includes feature matching, homography estimation, and blending.
 ## 🧠 Machine Learning
 
 > A collection of machine learning projects and experiments.  
-Includes supervised, unsupervised, and deep learning models for various tasks.
+As of now it includes a single layered neural network that learns to classify inputs into two categories.
+> Activation function       :sigmoid
+ loss function              :mean squared error
+ learning rate              :0.01
+ size                       :2*1
+ epoch                      :1000
+
+> utilizes a custom made plotlib library to project points on a chart
+
+<img src="OpenCV_Projects/Resources/NeuralNetworkResult_with_CustomPlotlib.jpg" alt="Classification Result" width="600"/>
 
 📂 Folder: `ML`
 
