@@ -24,7 +24,7 @@ As of now it includes techniques like depth estimation and point cloud generatio
 > ### Result for Stereo SGBM:
 <img src="OpenCV_Projects/Resources/3dstereo.gif" alt="3D Reconstruction Demo" width="600"/>
 
-> 📌 **Note:** Visualisation and generation of ply file that holds the 3d data were both done via Open3d library. 
+> 📌 **Note:** Visualisation and generation of ply file that holds the 3d data were both done via Open3d library. Code is supplied.
 
 
 📂 Folder: `3d_reconstruction`
