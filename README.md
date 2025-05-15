@@ -17,7 +17,13 @@ Welcome to my OpenCV_Projects! This repository serves as an index of my key proj
 ## 🔷 3D Reconstruction
 
 > Tools and algorithms for reconstructing 3D scenes from multiple images.  
-Includes techniques like Structure from Motion (SfM), depth estimation, and point cloud generation.
+As of now it includes techniques like depth estimation and point cloud generation.
+
+> Following is the 3D Stereo estimation using OpenCV's Stereo SGBM. Dataset and camera calibrations used in this project can be found here [Backpack-perfect scene](https://vision.middlebury.edu/stereo/data/scenes2014/datasets/Backpack-perfect/) 
+
+> Result:
+[🎥 View 3D Reconstruction Demo](Resources/demo.webm)
+
 
 📂 Folder: `3d_reconstruction`
 
