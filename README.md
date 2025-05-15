@@ -22,7 +22,7 @@ As of now it includes techniques like depth estimation and point cloud generatio
 > Following is the 3D Stereo estimation using OpenCV's Stereo SGBM. Dataset and camera calibrations used in this project can be found here [Backpack-perfect scene](https://vision.middlebury.edu/stereo/data/scenes2014/datasets/Backpack-perfect/) 
 
 > Result:
-[🎥 View 3D Reconstruction Demo](Resources/demo.webm)
+[🎥 View 3D Reconstruction Demo](Resources/3dstereo.webm)
 
 
 📂 Folder: `3d_reconstruction`
